@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies Rating</title>
+    <link rel="stylesheet"
+        href="https://unpkg.com/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="movies.css">
+</head>
+<body>
+    <h1>Movie Ratings</h1>
+    <h2>Enter the movie title and your rating below</h2>
+    <div id="container-input">
+        <form id="input-one">
+            <label>Movie Title:</label>
+            <input type="text" name="title" id="movietitle" required>
+        </form>
+        <form id="input-two">
+            <lable>Rating (0-10):</lable>
+            <input type="number" name="rating" id="movierating" min="0" max="10" required>
+        </form>
+        <div id="container-submit">
+            <input type="submit" id="submit-button"></input>
+        </div>
+    </div>
+    <div id="contianer-gallery">
+        <h2>Movie Listings: </h2>
+        <ul id="ratings">
+
+        </ul>
+    </div>
+    <div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="movies.js"></script>
+</body>
+</html>

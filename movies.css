@@ -1,0 +1,17 @@
+h1, h2{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+#container-input{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#input-one, #input-two {
+    width: 300px;
+    margin: 10px;
+}
